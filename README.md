@@ -55,6 +55,17 @@ Where:
 Aging is therefore constrained to a single interpretable deformation
 axis.
 
+### Qualitative Reconstruction Examples
+
+Absolute reconstructions for two beats with age-conditioned outputs
+(ages 20, 50, 80) versus original signal:
+
+![Absolute reconstructions, record 1146](recon/dv1146.png)
+*Record 1146, beat 2, patient age 67.*
+
+![Absolute reconstructions, record 5744](recon/dv5744.png)
+*Record 5744, beat 2, patient age 35.*
+
 ------------------------------------------------------------------------
 
 ## 3. Amplitude-Invariant Signal Design
@@ -216,6 +227,17 @@ Total loss is weighted combination of all terms.
 All validation tests: PASS
 
 Test MAE: 9.6276 years
+
+### Deformation Axis Examples
+
+Direct visualization of deformation delta Δ(z, age) around canonical
+age:
+
+![Deformation delta, record 1146](recon/dvdiff1146.png)
+*Record 1146, beat 2.*
+
+![Deformation delta, record 5744](recon/dvdiff5744.png)
+*Record 5744, beat 2.*
 
 ------------------------------------------------------------------------
 
